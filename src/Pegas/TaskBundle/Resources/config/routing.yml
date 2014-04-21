@@ -1,0 +1,9 @@
+main:
+    pattern:  /
+    defaults: { _controller: TaskBundle:Main:index }
+userform:
+    pattern:  /userform
+    defaults: { _controller: TaskBundle:Registration:userform } 
+thanks:
+    pattern:  /thanks
+    defaults: { _controller: TaskBundle:Main:thanks } 

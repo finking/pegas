@@ -1,0 +1,19 @@
+{% extends '::base.html.twig' %}
+{% block title %}
+Задание от Pegas
+{% endblock %}
+
+
+ {% block h1 %}
+     Спасибо за регистрацию
+ {% endblock %}
+ 
+ {% block p %}
+	Письмо успешно отправлено.
+	<p>
+		<a href ="{{ path('userform') }}">Зарегистрировать нового пользователя</a>
+	</p>
+	<p>
+		<a href ="{{ path('main') }}">Вернуться на главную</a>
+	</p>	
+ {% endblock %}

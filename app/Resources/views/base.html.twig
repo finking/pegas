@@ -2,12 +2,21 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Задание от Pegas{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+		<h1>
+        {% block h1 %}{% endblock %}
+		</h1>
+		<p>
+		{% block p %}{% endblock %}
+		</p>
+		<div>
+		{% block div %}{% endblock %}
+		</div>
+		
         {% block javascripts %}{% endblock %}
     </body>
 </html>
